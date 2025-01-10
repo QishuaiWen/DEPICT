@@ -5,7 +5,7 @@ This repository is the official Pytorch implementation of paper [Rethinking Deco
 Our work and code are inspired by and built upon [CRATE](https://github.com/Ma-Lab-Berkeley/CRATE) (Yu et al., 2023) and [Segmenter](https://github.com/rstrudel/segmenter) (Strudel et al., 2021). The source of the above image examples is [d2l.ai](https://d2l.ai/chapter_computer-vision/semantic-segmentation-and-dataset.html#fig-segmentation).
 ## Models
 We release our models trained on the ADE20K dataset, including variants of [DEPICT-SA](https://drive.google.com/drive/folders/1feq6ldmup86Qdav7GVX9rYWQqufiHtSJ?usp=drive_link) and [DEPICT-CA](https://drive.google.com/drive/folders/1Zaz43QPTcHnYVlPGlZUXfTruag93wBG7?usp=drive_link).
-## Reproduction Guidelines
+## Reproduction&Training Guidelines
 Install [Segmenter](https://github.com/rstrudel/segmenter) via  
 ```
 git clone https://github.com/rstrudel/segmenter ./segmenter
@@ -46,6 +46,10 @@ python -m segm.eval.miou log/DEPICT-SA-Small/checkpoint.pth ade20k --singlescale
 # multi-scale evaluation:
 python -m segm.eval.miou log/DEPICT-SA-Small/checkpoint.pth ade20k --multiscale
 ```
-
+or re-train it via 
+```
+python -m segm.train --log-dir log/DEPICT-SA-Small --dataset ade20k --backbone vit_small_patch16_384 --decoder mask_transformer
+```
+P.S. To evaluate DEPICT-CA, line 19 of model/decoder.py should be "mode='ca'". We aim to make minimal modifications to the Segmenter code, keeping all differences confined to the config.yml file and the model folder we released above.
 
 
