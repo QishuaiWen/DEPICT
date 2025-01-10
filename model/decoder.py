@@ -16,7 +16,7 @@ class MaskTransformer(nn.Module):
             n_heads,
             d_model,
             dropout,
-            mode='ca',
+            mode='sa',
     ):
         super().__init__()
         self.patch_size = patch_size
