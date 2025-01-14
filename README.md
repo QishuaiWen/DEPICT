@@ -1,5 +1,5 @@
 # DEPICT (DEcoder for PrIncipled semantiC segmenTation)
-This repository is the official Pytorch implementation of paper [Rethinking Decoders for Transformer-based Semantic Segmentation: Compression is All You Need](https://arxiv.org/abs/2411.03033) by Qishuai Wen and [Chun-Guang Li](https://teacher.bupt.edu.cn/cgli/zh_CN/index.htm), NeurIPS2024.
+This repository is the official Pytorch implementation of paper [Rethinking Decoders for Transformer-based Semantic Segmentation: A Compression Perspective](https://arxiv.org/abs/2411.03033) by Qishuai Wen and [Chun-Guang Li](https://teacher.bupt.edu.cn/cgli/zh_CN/index.htm), NeurIPS2024.
 ![Illustration of DEPICT](DEPICT.png)
 ## Acknowledgements
 Our work and code are inspired by and built upon [CRATE](https://github.com/Ma-Lab-Berkeley/CRATE) (Yu et al., 2023) and [Segmenter](https://github.com/rstrudel/segmenter) (Strudel et al., 2021). The source of the above image examples is [d2l.ai](https://d2l.ai/chapter_computer-vision/semantic-segmentation-and-dataset.html#fig-segmentation).
