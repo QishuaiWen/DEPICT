@@ -1,7 +1,4 @@
 # DEPICT (DEcoder for PrIncipled semantiC segmenTation)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rethinking-decoders-for-transformer-based/semantic-segmentation-on-ade20k-val)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k-val?p=rethinking-decoders-for-transformer-based)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rethinking-decoders-for-transformer-based/semantic-segmentation-on-pascal-context)](https://paperswithcode.com/sota/semantic-segmentation-on-pascal-context?p=rethinking-decoders-for-transformer-based)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rethinking-decoders-for-transformer-based/semantic-segmentation-on-cityscapes-val)](https://paperswithcode.com/sota/semantic-segmentation-on-cityscapes-val?p=rethinking-decoders-for-transformer-based)
 
 This repository is the official Pytorch implementation of paper [Rethinking Decoders for Transformer-based Semantic Segmentation: A Compression Perspective](https://arxiv.org/abs/2411.03033) by Qishuai Wen and [Chun-Guang Li](https://teacher.bupt.edu.cn/cgli/zh_CN/index.htm), NeurIPS2024.
 ![Illustration of DEPICT](DEPICT.png)
