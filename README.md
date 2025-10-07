@@ -3,10 +3,21 @@
 This repository is the official Pytorch implementation of paper [Rethinking Decoders for Transformer-based Semantic Segmentation: A Compression Perspective](https://arxiv.org/abs/2411.03033) by Qishuai Wen and [Chun-Guang Li](https://teacher.bupt.edu.cn/cgli/zh_CN/index.htm), NeurIPS2024.
 <p align="center"> <img src="DEPICT.png" width="800px"/> <br> <em>DEPICT overview</em> </p>
 
-## Acknowledgements
-Our work and code are inspired by and built upon [CRATE](https://github.com/Ma-Lab-Berkeley/CRATE) (Yu et al., 2023) and [Segmenter](https://github.com/rstrudel/segmenter) (Strudel et al., 2021). The source of the above image examples is [d2l.ai](https://d2l.ai/chapter_computer-vision/semantic-segmentation-and-dataset.html#fig-segmentation).
+## 📣 News 
+[2025/9/19] Our follow-up paper has been accepted to NeurIPS 2025 as a Spotlight🌟! See [CBSA](https://github.com/QishuaiWen/CBSA).
+
+[2024/9/26] This paper has been accepted to NeurIPS 2024 as a Poster!
 ## Models
 We release our models trained on the ADE20K dataset, including variants of [DEPICT-SA](https://drive.google.com/drive/folders/1feq6ldmup86Qdav7GVX9rYWQqufiHtSJ?usp=drive_link) and [DEPICT-CA](https://drive.google.com/drive/folders/1Zaz43QPTcHnYVlPGlZUXfTruag93wBG7?usp=drive_link).
+
+<div align="center">
+  <img src="assets/performance.png" width="270px"/>
+  <img src="assets/noise_tiny.png" width="270px"/>
+  <img src="assets/noise_small.png" width="270px"/>
+  <br>
+  <em>Performance comparison</em>
+</div>
+
 ## Reproduction&Training Guidelines
 Install [Segmenter](https://github.com/rstrudel/segmenter) via  
 ```
@@ -54,4 +65,5 @@ python -m segm.train --log-dir log/DEPICT-SA-Small --dataset ade20k --backbone v
 ```
 P.S. To evaluate DEPICT-CA, line 19 of model/decoder.py should be "mode='ca'". We aim to make minimal modifications to the Segmenter code, keeping all differences confined to the config.yml file and the model folder we released above.
 
-
+## Acknowledgements
+Our work and code are inspired by and built upon [CRATE](https://github.com/Ma-Lab-Berkeley/CRATE) (Yu et al., 2023) and [Segmenter](https://github.com/rstrudel/segmenter) (Strudel et al., 2021). The source of the above image examples is [d2l.ai](https://d2l.ai/chapter_computer-vision/semantic-segmentation-and-dataset.html#fig-segmentation).
