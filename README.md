@@ -7,7 +7,7 @@ This repository is the official Pytorch implementation of paper [Rethinking Deco
 [2025/9/19] Our follow-up paper has been accepted to NeurIPS 2025 as a Spotlight🌟! See [CBSA](https://github.com/QishuaiWen/CBSA).
 
 [2024/9/26] This paper has been accepted to NeurIPS 2024 as a Poster!
-## Models
+## 📊 Models
 We release our models trained on the ADE20K dataset, including variants of [DEPICT-SA](https://drive.google.com/drive/folders/1feq6ldmup86Qdav7GVX9rYWQqufiHtSJ?usp=drive_link) and [DEPICT-CA](https://drive.google.com/drive/folders/1Zaz43QPTcHnYVlPGlZUXfTruag93wBG7?usp=drive_link).
 
 <div align="center">
@@ -18,7 +18,7 @@ We release our models trained on the ADE20K dataset, including variants of [DEPI
   <em>Performance comparison</em>
 </div>
 
-## Reproduction&Training Guidelines
+## 📝 Reproduction&Training Guidelines
 Install [Segmenter](https://github.com/rstrudel/segmenter) via  
 ```
 git clone https://github.com/rstrudel/segmenter ./segmenter
