@@ -6,6 +6,8 @@ This repository is the official Pytorch implementation of paper [Rethinking Deco
 <p align="center"> <img src="DEPICT.png" width="800px"/> <br> <em>DEPICT overview</em> </p>
 
 ## 📣 News 
+[2026/4/3] Our new paper, [MiTA Attention](https://arxiv.org/pdf/2602.01219), includes a linear-time Transformer for semantic segmentation (see Tab. 5).
+
 [2025/9/19] Our follow-up paper has been accepted to NeurIPS 2025 as a Spotlight🌟! See [CBSA](https://github.com/QishuaiWen/CBSA).
 
 [2024/9/26] This paper has been accepted to NeurIPS 2024 as a Poster!
