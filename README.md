@@ -1,4 +1,6 @@
-# DEPICT (DEcoder for PrIncipled semantiC segmenTation)
+<div align="center">
+<h1>DEPICT (DEcoder for PrIncipled semantiC segmenTation)</h1>
+</div>
 
 This repository is the official Pytorch implementation of paper [Rethinking Decoders for Transformer-based Semantic Segmentation: A Compression Perspective](https://arxiv.org/abs/2411.03033) by Qishuai Wen and [Chun-Guang Li](https://teacher.bupt.edu.cn/cgli/zh_CN/index.htm), NeurIPS2024.
 <p align="center"> <img src="DEPICT.png" width="800px"/> <br> <em>DEPICT overview</em> </p>
